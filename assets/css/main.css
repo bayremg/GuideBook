@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Book-Desktop-Wallpapers-HD.jpg") bottom left;
+		background: #348cb2 url("/assets/css/image/bg1.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
