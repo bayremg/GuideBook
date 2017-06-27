@@ -17,7 +17,7 @@
  3.2 Portfolio
  3.3 About
  3.4 Clients
- 3.5 Price table
+ 3.5 event table
  3.6 Newsletter
  3.7 Contact
  3.8 Footer
@@ -605,13 +605,13 @@ p {
     line-height:1.3em;
 }
 /*
-3.5 Price table
+3.5 event table
 ******************************************************************/
- .price-table {
+ .event-table {
     margin-top: 70px;
     margin-bottom: 20px;
 }
-.price-column {
+.event-column {
     background-color:white;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -620,42 +620,47 @@ p {
     margin:0 auto;
     text-align:center;
 }
-.price-column h3 {
+.event-column h3 {
     background-color:#181A1C;
     text-transform:uppercase;
     text-align: center;
     color:#FECE1A;
-    padding:40px 0px;
-    font-size: 36px;
+    padding:15px 0px;
+    font-size: 22px;
     margin-top:0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px;
 }
-.price-column .list{
+.event-column .list{
     list-style:none;
     margin:20px 50px;
+    text-align: left;
 }
-.price-column .list li{
+.event-column .list li{
     font-weight:lighter;
     color:#747C89;
     font-size:20px;
     border-bottom:1px solid #747C89;
-    padding:25px 0px;
+    padding:15px 0px;
 }
-.price-column .list li.price {
-    text-align: center;
-    font-size:31px;
+.event-column .list li.address {
+    text-align: left;
+    font-size:20px;
     background-color:white;
     color:#747C89;
     margin-top:25px;
 }
-.price-text{
+.event-column .list li span i {
+  margin-right: 10px;
+}
+.event-text{
     margin:30px 0 20px;
     font-size:20px;
     color: #181A1C;
     font-weight:normal;
 }
+
 /*
 3.6 Newsletter
 ********************************************************************/
@@ -898,7 +903,7 @@ p {
     .project-description {
         padding-left:20px;
     }
-    .price-column, .testimonial {
+    .event-column, .testimonial {
         margin-top:30px;
     }
 }
