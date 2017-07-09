@@ -907,3 +907,15 @@ p {
         margin-top:30px;
     }
 }
+
+/*
+Added
+********************************************************************/
+.fbp {
+    color:#FFF;
+    text-decoration: none;
+}
+.fbp:hover {
+    color: #FECE1A;
+    text-decoration:none;
+}
